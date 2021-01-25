@@ -1,0 +1,23 @@
+{
+  "vendor": "avantivtexio",
+  "name": "barrafrete-gratis",
+  "version": "1.0.0",
+  "title": "Barra de Frete Grátis",
+  "description": "Componente de barra de frete grátis para Avanti",
+  "builders": {
+    "react": "3.x",
+    "docs": "0.x",
+    "store": "0.x",
+    "graphql": "1.x",
+    "admin": "0.x"
+  },
+  "dependencies": {
+    "vtex.order-manager": "0.x",
+    "vtex.styleguide": "9.x"
+  },
+  "registries": [
+    "smartcheckout"
+  ],
+  "policies": [],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
